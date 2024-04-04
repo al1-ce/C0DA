@@ -1,0 +1,85 @@
+@import url(/fonts/inconsolata.css);
+@import url(/fonts/roboto.css);
+@import url(/fonts/coda.css);
+
+.page .title {
+  font-family: "Coda"; /* lololol */
+  text-align: center;
+  margin: 0 auto 0 auto;
+}
+
+/* Paragraph text */
+.page .content p {
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.page .content p strong {
+  font-weight: 700;
+}
+
+/* Page numbers */
+.page .content h1 {
+  font-size: 21px;
+  font-family: "Coda";
+  font-weight: bold;
+  font-style: normal;
+  color: rgba(192, 192, 192, 0.8);
+}
+
+/* Scene descriptions */
+.page .content h2 {
+  font-size: 19px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  color: rgba(170, 170, 170, 0.8);
+}
+
+/* Action descriptions */
+.page .content h3 {
+  font-size: 19px;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-style: oblique;
+  color: rgba(158, 158, 158, 0.8);
+}
+
+.page .content h3 strong {
+  font-weight: 400;
+}
+
+/* Speaker names */
+.page .content blockquote h1 {
+  font-size: 19px;
+  font-family: "Inconsolata";
+  text-align: center;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Action names */
+.page .content blockquote h2 {
+  font-size: 19px;
+  font-family: "Inconsolata";
+  text-align: center;
+  font-weight: normal;
+  font-style: oblique;
+}
+
+/* C0DE */
+.page .content code {
+  font-size: 18px;
+  font-family: "Roboto";
+  border-radius: 0;
+  background-color: transparent;
+  padding: 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Images */
+.page .content img {
+  max-width: 100%;
+  padding: 2px 0 2px 0;
+}
