@@ -7,7 +7,6 @@
         <link href="/favicon.png" rel="icon" type="image/png"/>
         <meta content="C0DA hosts Elder Scrolls texts." name="description"/>
         <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-		<link rel="stylesheet" type="text/css" href="/web/css/whatnext.css">
 		<style>
             @import url('/fonts/inconsolata.css');
             @import url('/fonts/coda.css');
@@ -20,9 +19,10 @@
             #bg {
                 width: 100%;
                 height: 100%;
-                position: absolute;
+                position: fixed;
                 top: 0;
                 left: 0;
+                z-index: -1;
             }
 
             #bg > div {
@@ -36,18 +36,16 @@
 
             #backneko {
                 position: absolute;
-                bottom: 0px;
+                top: 2em;
                 right: 5%;
             }
             .box {
-                top: 15%;
-                position: absolute;
-                left: 15%;
                 width: 50%;
                 margin: auto;
                 background-color: #000000c0;
                 border: 2px groove #2e2c2cbb;
                 box-shadow: 4px 4px #2726262a;
+                margin: 1em;
             }
             .toper {
                 border-bottom: 2px groove #4e4e4e;
@@ -70,6 +68,11 @@
                 color: #d1cfcf;
                 cursor: pointer;
             }
+
+            @media only screen and (max-width: 600px) {
+                #backneko { display: none; }
+                .box { width: 90%; }
+            }
         </style>
 	</head>
 	
@@ -82,18 +85,16 @@
 				<h2>A love letter to C0DA</h2>
 			</div>
 			<div class="text">
-				<h3>Hi, I'm <a href="al1-ce.dev">al1-ce</a> (aka silyneko). This is my love letter to C0DA.</h3>
+				<h3>Hi, I'm <a href="https://al1-ce.dev">al1-ce</a> (aka silyneko). This is my love letter and a tribute to C0DA.</h3>
 				<br>
-				<h3>This website is an attempt to preserve C0DA as it was. The only thing I'm changing is some internal structure and adding this page as this is not my creation.</h3>
-				<h3>It was quite a hard task to find all the media for this website, but I've almost succeeded.</h3>
+				<h3>This website is an attempt to preserve C0DA as it was. The only things I've changed is some of internal structure to fix errors after pulling it from waybackmachine and as you can see I also added this page.</h3>
+				<h3>It was a hard task to scout all the media for this website and I almost succeeded.</h3>
 				<h3>Almost...</h3>
-				<h3>I only humbly ask you, if you have anything for <a href="/c0da/artguide.html">Art Guide</a> please <a href="mailto:al1-ce@list.ru">contact me</a>.</h3>
-				<br>
-				<h3>And, if you are Numinit or MK himself and if you want this page taken down, <a href="mailto:al1-ce@list.ru">contact me</a> too please. Or even just contact me, I'd love to chat with you both.</h3>
+				<h3>I humbly ask you, if you have anything for <a href="/c0da/artguide.html">Art Guide</a>, or if you are Numinit or MK himself and if you want this page taken down then please do <a href="mailto:al1-ce@null.net">contact me</a>.</h3>
 				<br>
 				<h3>Thank you for taking your time to read this.</h3>
                 <br>
-				<h3>All rights reserved to Michael Kirkbride, Numinit and people mentioned on pages with their artwork.</h3>
+				<h3>All rights reserved to Michael Kirkbride, Numinit and talented artists who created the artwork.</h3>
                 <br>
 				<h3><a href="/index.html">Go back?</a></h3>
 			</div>
