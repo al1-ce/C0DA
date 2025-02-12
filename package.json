@@ -5,10 +5,10 @@
     "name": "c0da.al1-ce.dev",
     "version": "1.0.0",
     "description": "Archive of c0da.es",
-    "main": "server.js",
+    "main": "index.js",
     "scripts": {
-        "start": "node ./server.js",
-        "test": "nodemon ./server.js",
+        "start": "node ./index.js",
+        "test": "nodemon ./index.js",
         "build": "echo 'nobuild'"
     },
     "keywords": [],
