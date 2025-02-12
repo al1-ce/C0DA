@@ -1,0 +1,17 @@
+{
+    "dependencies": {
+        "express": "^4.21.1"
+    },
+    "name": "c0da.al1-ce.dev",
+    "version": "1.0.0",
+    "description": "Archive of c0da.es",
+    "main": "server.js",
+    "scripts": {
+        "start": "node ./server.js",
+        "test": "nodemon ./server.js",
+        "build": "echo 'nobuild'"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
