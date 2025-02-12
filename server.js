@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 app.use(express.static(__dirname, { extensions: ["html", "htm"] }));
 
-app.all("*", (req, res) => { res.status(404).sendFile(path.join(__dirname, "public/404.html")); })
+app.all("*", (req, res) => { res.status(404).sendFile(path.join(__dirname, "404.html")); })
 
 const port = process.env.PORT || 3000;
 
